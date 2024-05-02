@@ -1,0 +1,138 @@
+/* style.css */
+.warna1 {
+    background-color: #876445;
+}
+.warna2 {
+    background-color: #ca965a;
+}
+.warna3 {
+    background-color: #EEC373;
+}
+.warna4 {
+    background-color: #F4DFBA;
+}
+/* Banner */
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner1.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+.text-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Kategori */
+.highlighted-kategori {
+    height: 300px; /* tambahkan unit untuk tinggi */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.kategori-realis {
+    background-image: url('../image/kategori-realis.jpg');
+}
+
+.kategori-abstrak {
+    background-image: url('../image/kategori-abstrak.jpg');
+}
+
+.kategori-impresionis {
+    background-image: url('../image/kategori-impresionis.jpg');
+}
+.kategori-naturalis {
+    background-image: url('../image/kategori-naturalisme.jpg');
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover {
+    color: #EEC373;
+}
+
+.text-harga {
+    font-size: 20px;
+    color: #876445;
+}
+
+.image-box {
+    height: 250px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-subcribe {
+    background-color: rgba(0, 0, 0, 0.7);
+   
+}
+
+.content-subcribe a {
+    color: white;
+}
+
+.banner-produk{
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-position: 30% 50%;
+}
+
+.produk-terkait-image {
+    height: 100%; /* Tetapkan tinggi 100% agar gambar memenuhi kotak gambar */
+    width: auto; /* Tetapkan lebar otomatis agar gambar tetap proporsional */
+    object-fit: cover; /* Hindari distorsi gambar dengan memotong dan menyesuaikan gambar */
+    object-position: center; /* Posisikan gambar di tengah */
+}
+
+.loader {
+    border-top-color: #ef4444;
+    -webkit-animation: spinner 1.5s linear infinite;
+    animation: spinner 1.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.judul {
+    align-content: right;
+    margin-left: 100px;
+}
+
+
+
+
